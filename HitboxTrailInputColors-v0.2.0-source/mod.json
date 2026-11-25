@@ -1,0 +1,30 @@
+{
+  "geode": "5.11.2",
+  "gd": {
+    "win": "2.2081"
+  },
+  "id": "inputcolors.hitboxtrail",
+  "name": "Hitbox Trail Input Colors",
+  "version": "v0.2.0",
+  "developer": "Input Colors",
+  "description": "Independent input-colored player hitbox trail.",
+  "settings": {
+    "enabled": {
+      "type": "bool",
+      "name": "Enabled",
+      "default": true
+    },
+    "length": {
+      "type": "int",
+      "name": "Trail samples",
+      "default": 600,
+      "min": 30,
+      "max": 3000
+    },
+    "extra-samples": {
+      "type": "bool",
+      "name": "Extra input samples",
+      "default": true
+    }
+  }
+}
